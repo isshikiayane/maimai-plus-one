@@ -38,6 +38,13 @@ const out = template
 const target = path.join(WEB, 'index.html');
 fs.writeFileSync(target, out, 'utf8');
 
+// GitHub Pages 只支持从仓库根目录或 /docs 发布，这里同步一份到 docs/
+const docsDir = path.join(ROOT, 'docs');
+fs.mkdirSync(docsDir, { recursive: true });
+const docsTarget = path.join(docsDir, 'index.html');
+fs.writeFileSync(docsTarget, out, 'utf8');
+
 const kb = (n) => (n / 1024).toFixed(1) + ' KB';
 console.log(`已生成 ${target}`);
+console.log(`已生成 ${docsTarget}（GitHub Pages 入口，仓库设置里选 /docs 即可）`);
 console.log(`  style ${kb(style.length)}  app ${kb(app.length)}  data ${kb(data.length)}  合计 ${kb(out.length)}`);
