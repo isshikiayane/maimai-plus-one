@@ -5,6 +5,8 @@
 
 麦当劳程序员节创意开发大赛（2026 · 1024）参赛作品 · 基于麦当劳中国官方 MCP Server。
 
+**[▶ 在线演示（无需 Token，真实快照回放）](https://isshikiayane.github.io/maimai-plus-one/)** ｜ [报名 Issue #1381](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1381) ｜ [源码](https://github.com/isshikiayane/maimai-plus-one)
+
 ---
 
 ## 30 秒看懂
@@ -31,7 +33,7 @@ node scripts/cli.mjs plan --store 1450713 --meal 9900005466 --budget 5 --intent 
 
 （以上为 **2026-10-25 实测输出**，门店 1450713，未做任何编辑。）
 
-不想配 Token 也能看效果：直接双击 `web/index.html`，那是真实抓取后脱敏的**离线快照回放**。
+不想配 Token 也能看效果：[在线演示](https://isshikiayane.github.io/maimai-plus-one/) 直接打开了 `web/index.html`，那是真实抓取后脱敏的**离线快照回放**（也可克隆后双击本地文件，同样零依赖、零令牌）。
 
 ---
 
@@ -87,7 +89,7 @@ node scripts/cli.mjs plan --store 1450713 --meal 9900005466 --budget 5 --intent 
 ### 1. 获取代码
 
 ```bash
-git clone https://github.com/<your-name>/maimai-plus-one.git
+git clone https://github.com/isshikiayane/maimai-plus-one.git
 cd maimai-plus-one
 ```
 
@@ -227,6 +229,20 @@ node --test tests/engine.test.mjs
 - 本项目只做麦当劳自家方案之间的比较，不与任何其他品牌做对比。
 - 无过敏原数据，涉及健康、营养、过敏的问题一律不给结论。
 - 全链路只读，不包含下单、领券、抽奖等写操作。
+
+## 八、参赛材料清单
+
+| 官方要求 | 本项目文件 | 状态 |
+|---|---|---|
+| 项目 README | [`README.md`](README.md) | ✅ |
+| 参赛声明（官方原文） | [`CONTEST_DECLARATION.md`](CONTEST_DECLARATION.md) | ✅ 与官方原文逐字节一致 |
+| MCP 接入说明 | [`MCP_INTEGRATION.md`](MCP_INTEGRATION.md) | ✅ 含真实调用耗时与工具边界 |
+| 脱敏配置示例 | [`mcp-config.example.json`](mcp-config.example.json) | ✅ 仅 `${MCD_MCP_TOKEN}` |
+| WorkBuddy 使用记录 | [`workbuddy.md`](workbuddy.md) | ✅ 开发与使用过程 |
+| Skill 本体 | [`skill/SKILL.md`](skill/SKILL.md) | ✅ |
+| 可运行内容 | `scripts/` + `tests/` + `web/index.html` | ✅ 21 项测试全通过 + 离线演示 |
+
+报名 Issue：[M-China/mcd-developer-innovation-challenge#1381](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1381)
 
 ## 许可证
 
