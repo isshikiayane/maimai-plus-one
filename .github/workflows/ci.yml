@@ -1,0 +1,21 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: 单元测试（归因算例 / 意图映射）
+        run: node --test tests/engine.test.mjs tests/intent.test.mjs
+      - name: 合规与隐私扫描
+        run: node scripts/check-compliance.mjs
+      - name: 演示页可构建（不含真实令牌）
+        run: node scripts/build-web.mjs

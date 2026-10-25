@@ -1,0 +1,6367 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-25T15:59:01+08:00",
+  "generator": {
+    "name": "maimai-plus-one",
+    "mode": "snapshot"
+  },
+  "channel": {
+    "orderType": 1,
+    "beType": 1,
+    "beCode": null,
+    "label": "到店自取"
+  },
+  "store": {
+    "storeCode": "1450713",
+    "storeName": "",
+    "city": ""
+  },
+  "plans": [
+    {
+      "storeCode": "1450713",
+      "mealCode": "9900005456",
+      "mealName": "麦辣鸡腿汉堡三件套",
+      "roundsMeta": [
+        {
+          "roundId": "1",
+          "roundName": "麦辣鸡腿汉堡",
+          "kind": "main",
+          "choiceCount": 1
+        },
+        {
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "kind": "side",
+          "choiceCount": 7
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "kind": "drink",
+          "choiceCount": 22
+        }
+      ],
+      "budgetFen": 500,
+      "intentText": "咖啡",
+      "intentLabel": "想喝咖啡",
+      "baseline": {
+        "roundList": [
+          {
+            "round": "1",
+            "comboItemList": [
+              {
+                "code": "1440",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "round": "2",
+            "comboItemList": [
+              {
+                "code": "4810",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "round": "3",
+            "comboItemList": [
+              {
+                "code": "3050",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        "priceFen": 3350,
+        "productPriceFen": 3350,
+        "originalPriceFen": 3350,
+        "absorbedFen": 0,
+        "couponUsed": false,
+        "couponTitle": null,
+        "probe": {
+          "explicitFen": 3350,
+          "implicitFen": 3350,
+          "diffFen": 0
+        },
+        "notes": []
+      },
+      "couponContext": {
+        "storeCouponCount": 2,
+        "candidateTitles": [
+          "9.9元中杯冰美式",
+          "1024“码”力翻倍"
+        ],
+        "notes": [
+          "券不能与套餐内替换叠加：服务端返回 600012 促销规则不支持该商品（该券只对单点商品生效）"
+        ]
+      },
+      "best": {
+        "roundId": "3",
+        "roundName": "选择套餐内饮料",
+        "roundKind": "drink",
+        "from": {
+          "code": "3050",
+          "name": "可乐中杯"
+        },
+        "to": {
+          "code": "520688",
+          "name": "大杯鲜萃咖啡",
+          "diffPriceRaw": "+ ¥1.5"
+        },
+        "menuDeltaFen": 150,
+        "why": "名称命中「鲜萃」；意图命中 +1.0；加价 1.50 元 +0.46",
+        "priceFen": 3500,
+        "attribution": {
+          "deltaFen": 150,
+          "menuDeltaFen": 150,
+          "couponDeltaFen": 0,
+          "otherDeltaFen": 0,
+          "residualFen": 0,
+          "menuObsDeltaFen": 150,
+          "menuMismatchFen": 0,
+          "couponBroken": false,
+          "level": "ok"
+        },
+        "couponUsed": false,
+        "couponTitle": null,
+        "alternatives": {
+          "noCouponFen": 3500,
+          "withCouponFen": null
+        },
+        "score": 1.462
+      },
+      "eligible": [
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "520688",
+            "name": "大杯鲜萃咖啡",
+            "diffPriceRaw": "+ ¥1.5"
+          },
+          "menuDeltaFen": 150,
+          "why": "名称命中「鲜萃」；意图命中 +1.0；加价 1.50 元 +0.46",
+          "priceFen": 3500,
+          "attribution": {
+            "deltaFen": 150,
+            "menuDeltaFen": 150,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 150,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 3500,
+            "withCouponFen": null
+          },
+          "score": 1.462
+        }
+      ],
+      "overBudget": [
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "507411",
+            "name": "麦咖啡™冰美式中杯",
+            "diffPriceRaw": "+ ¥9"
+          },
+          "menuDeltaFen": 900,
+          "why": "名称命中「咖啡」；意图命中 +1.0；加价 9.00 元 +0.28",
+          "priceFen": 4250,
+          "attribution": {
+            "deltaFen": 900,
+            "menuDeltaFen": 900,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 900,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 4250,
+            "withCouponFen": null
+          },
+          "score": 1.275
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "507368",
+            "name": "麦咖啡™热美式中杯",
+            "diffPriceRaw": "+ ¥9"
+          },
+          "menuDeltaFen": 900,
+          "why": "名称命中「咖啡」；意图命中 +1.0；加价 9.00 元 +0.28",
+          "priceFen": 4250,
+          "attribution": {
+            "deltaFen": 900,
+            "menuDeltaFen": 900,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 900,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 4250,
+            "withCouponFen": null
+          },
+          "score": 1.275
+        }
+      ],
+      "unverified": [],
+      "unpriced": 0,
+      "notes": [],
+      "fallback": false,
+      "unsupportedReason": null,
+      "capturedAt": "2026-10-25T15:58:53+08:00",
+      "audit": [
+        {
+          "seq": 1,
+          "ts": "2026-10-25T07:58:51.914Z",
+          "tool": "query-meals",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 386,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 2,
+          "ts": "2026-10-25T07:58:52.087Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 170,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 3,
+          "ts": "2026-10-25T07:58:52.419Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 332,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 4,
+          "ts": "2026-10-25T07:58:52.637Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 217,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 5,
+          "ts": "2026-10-25T07:58:52.733Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 96,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 6,
+          "ts": "2026-10-25T07:58:53.054Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 320,
+          "status": "ok",
+          "result": {
+            "price": 3500,
+            "productPrice": 3500,
+            "originalPrice": 3500,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 400
+            }
+          }
+        },
+        {
+          "seq": 7,
+          "ts": "2026-10-25T07:58:53.181Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 127,
+          "status": "ok",
+          "result": {
+            "price": 4250,
+            "productPrice": 4250,
+            "originalPrice": 4250,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 8,
+          "ts": "2026-10-25T07:58:53.398Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": true,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 217,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 9,
+          "ts": "2026-10-25T07:58:53.597Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507368"
+                ]
+              }
+            ]
+          },
+          "ms": 199,
+          "status": "ok",
+          "result": {
+            "price": 4250,
+            "productPrice": 4250,
+            "originalPrice": 4250,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 10,
+          "ts": "2026-10-25T07:58:53.805Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 207,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 11,
+          "ts": "2026-10-25T07:58:54.005Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 200,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 12,
+          "ts": "2026-10-25T07:58:54.393Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 388,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 13,
+          "ts": "2026-10-25T07:58:54.490Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 97,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 14,
+          "ts": "2026-10-25T07:58:54.742Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→521983",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 252,
+          "status": "ok",
+          "result": {
+            "price": 3450,
+            "productPrice": 3450,
+            "originalPrice": 3450,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 450
+            }
+          }
+        },
+        {
+          "seq": 15,
+          "ts": "2026-10-25T07:58:54.929Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 187,
+          "status": "ok",
+          "result": {
+            "price": 3500,
+            "productPrice": 3500,
+            "originalPrice": 3500,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 400
+            }
+          }
+        },
+        {
+          "seq": 16,
+          "ts": "2026-10-25T07:58:55.129Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3100"
+                ]
+              }
+            ]
+          },
+          "ms": 200,
+          "status": "ok",
+          "result": {
+            "price": 3550,
+            "productPrice": 3550,
+            "originalPrice": 3550,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 350
+            }
+          }
+        },
+        {
+          "seq": 17,
+          "ts": "2026-10-25T07:58:55.338Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3111"
+                ]
+              }
+            ]
+          },
+          "ms": 208,
+          "status": "ok",
+          "result": {
+            "price": 3550,
+            "productPrice": 3550,
+            "originalPrice": 3550,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 350
+            }
+          }
+        },
+        {
+          "seq": 18,
+          "ts": "2026-10-25T07:58:55.550Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 211,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 19,
+          "ts": "2026-10-25T07:58:57.133Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 1583,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 20,
+          "ts": "2026-10-25T07:58:58.742Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 1609,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 21,
+          "ts": "2026-10-25T07:58:58.837Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 95,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 22,
+          "ts": "2026-10-25T07:58:59.070Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 233,
+          "status": "ok",
+          "result": {
+            "price": 3800,
+            "productPrice": 3800,
+            "originalPrice": 3800,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 100
+            }
+          }
+        },
+        {
+          "seq": 23,
+          "ts": "2026-10-25T07:58:59.276Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 206,
+          "status": "ok",
+          "result": {
+            "price": 4550,
+            "productPrice": 4550,
+            "originalPrice": 4550,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 24,
+          "ts": "2026-10-25T07:58:59.487Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": true,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 211,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 25,
+          "ts": "2026-10-25T07:58:59.691Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507368"
+                ]
+              }
+            ]
+          },
+          "ms": 204,
+          "status": "ok",
+          "result": {
+            "price": 4550,
+            "productPrice": 4550,
+            "originalPrice": 4550,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 26,
+          "ts": "2026-10-25T07:58:59.924Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 233,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 27,
+          "ts": "2026-10-25T07:59:00.100Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 176,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 28,
+          "ts": "2026-10-25T07:59:00.285Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 185,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 29,
+          "ts": "2026-10-25T07:59:00.473Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 188,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 30,
+          "ts": "2026-10-25T07:59:00.709Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→521983",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 235,
+          "status": "ok",
+          "result": {
+            "price": 3750,
+            "productPrice": 3750,
+            "originalPrice": 3750,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 150
+            }
+          }
+        },
+        {
+          "seq": 31,
+          "ts": "2026-10-25T07:59:01.001Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 292,
+          "status": "ok",
+          "result": {
+            "price": 3800,
+            "productPrice": 3800,
+            "originalPrice": 3800,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 100
+            }
+          }
+        },
+        {
+          "seq": 32,
+          "ts": "2026-10-25T07:59:01.175Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3100"
+                ]
+              }
+            ]
+          },
+          "ms": 174,
+          "status": "ok",
+          "result": {
+            "price": 3850,
+            "productPrice": 3850,
+            "originalPrice": 3850,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 50
+            }
+          }
+        },
+        {
+          "seq": 33,
+          "ts": "2026-10-25T07:59:01.404Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3111"
+                ]
+              }
+            ]
+          },
+          "ms": 228,
+          "status": "ok",
+          "result": {
+            "price": 3850,
+            "productPrice": 3850,
+            "originalPrice": 3850,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 50
+            }
+          }
+        },
+        {
+          "seq": 34,
+          "ts": "2026-10-25T07:59:01.659Z",
+          "tool": "query-meals",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 254,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 35,
+          "ts": "2026-10-25T07:59:01.798Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 139,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 36,
+          "ts": "2026-10-25T07:59:01.979Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 181,
+          "status": "ok",
+          "result": {}
+        }
+      ],
+      "intentRequested": "咖啡"
+    },
+    {
+      "storeCode": "1450713",
+      "mealCode": "9900005456",
+      "mealName": "麦辣鸡腿汉堡三件套",
+      "roundsMeta": [
+        {
+          "roundId": "1",
+          "roundName": "麦辣鸡腿汉堡",
+          "kind": "main",
+          "choiceCount": 1
+        },
+        {
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "kind": "side",
+          "choiceCount": 7
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "kind": "drink",
+          "choiceCount": 22
+        }
+      ],
+      "budgetFen": 500,
+      "intentText": "更饱",
+      "intentLabel": "想更饱",
+      "baseline": {
+        "roundList": [
+          {
+            "round": "1",
+            "comboItemList": [
+              {
+                "code": "1440",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "round": "2",
+            "comboItemList": [
+              {
+                "code": "4810",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "round": "3",
+            "comboItemList": [
+              {
+                "code": "3050",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        "priceFen": 3350,
+        "productPriceFen": 3350,
+        "originalPriceFen": 3350,
+        "absorbedFen": 0,
+        "couponUsed": false,
+        "couponTitle": null,
+        "probe": {
+          "explicitFen": 3350,
+          "implicitFen": 3350,
+          "diffFen": 0
+        },
+        "notes": []
+      },
+      "couponContext": {
+        "storeCouponCount": 2,
+        "candidateTitles": [
+          "9.9元中杯冰美式",
+          "1024“码”力翻倍"
+        ],
+        "notes": []
+      },
+      "best": {
+        "roundId": "2",
+        "roundName": "选择套餐内小食",
+        "roundKind": "side",
+        "from": {
+          "code": "4810",
+          "name": "中薯条"
+        },
+        "to": {
+          "code": "521983",
+          "name": "5块心形薯饼+韩式辣椒黄油风味酱",
+          "diffPriceRaw": "+ ¥1"
+        },
+        "menuDeltaFen": 100,
+        "why": "份量更大：块；意图命中 +1.0；加价 1.00 元 +0.47",
+        "priceFen": 3450,
+        "attribution": {
+          "deltaFen": 100,
+          "menuDeltaFen": 100,
+          "couponDeltaFen": 0,
+          "otherDeltaFen": 0,
+          "residualFen": 0,
+          "menuObsDeltaFen": 100,
+          "menuMismatchFen": 0,
+          "couponBroken": false,
+          "level": "ok"
+        },
+        "couponUsed": false,
+        "couponTitle": null,
+        "alternatives": {
+          "noCouponFen": 3450,
+          "withCouponFen": null
+        },
+        "score": 1.475
+      },
+      "eligible": [
+        {
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "from": {
+            "code": "4810",
+            "name": "中薯条"
+          },
+          "to": {
+            "code": "521983",
+            "name": "5块心形薯饼+韩式辣椒黄油风味酱",
+            "diffPriceRaw": "+ ¥1"
+          },
+          "menuDeltaFen": 100,
+          "why": "份量更大：块；意图命中 +1.0；加价 1.00 元 +0.47",
+          "priceFen": 3450,
+          "attribution": {
+            "deltaFen": 100,
+            "menuDeltaFen": 100,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 100,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 3450,
+            "withCouponFen": null
+          },
+          "score": 1.475
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "520688",
+            "name": "大杯鲜萃咖啡",
+            "diffPriceRaw": "+ ¥1.5"
+          },
+          "menuDeltaFen": 150,
+          "why": "份量更大：大；意图命中 +1.0；加价 1.50 元 +0.46",
+          "priceFen": 3500,
+          "attribution": {
+            "deltaFen": 150,
+            "menuDeltaFen": 150,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 150,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 3500,
+            "withCouponFen": null
+          },
+          "score": 1.462
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "3100",
+            "name": "可乐大杯",
+            "diffPriceRaw": "+ ¥2"
+          },
+          "menuDeltaFen": 200,
+          "why": "份量更大：大；意图命中 +1.0；加价 2.00 元 +0.45",
+          "priceFen": 3550,
+          "attribution": {
+            "deltaFen": 200,
+            "menuDeltaFen": 200,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 200,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 3550,
+            "withCouponFen": null
+          },
+          "score": 1.45
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "3111",
+            "name": "无糖可口可乐大杯",
+            "diffPriceRaw": "+ ¥2"
+          },
+          "menuDeltaFen": 200,
+          "why": "份量更大：大；意图命中 +1.0；加价 2.00 元 +0.45",
+          "priceFen": 3550,
+          "attribution": {
+            "deltaFen": 200,
+            "menuDeltaFen": 200,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 200,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 3550,
+            "withCouponFen": null
+          },
+          "score": 1.45
+        }
+      ],
+      "overBudget": [],
+      "unverified": [],
+      "unpriced": 0,
+      "notes": [],
+      "fallback": false,
+      "unsupportedReason": null,
+      "capturedAt": "2026-10-25T15:58:55+08:00",
+      "audit": [
+        {
+          "seq": 1,
+          "ts": "2026-10-25T07:58:51.914Z",
+          "tool": "query-meals",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 386,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 2,
+          "ts": "2026-10-25T07:58:52.087Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 170,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 3,
+          "ts": "2026-10-25T07:58:52.419Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 332,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 4,
+          "ts": "2026-10-25T07:58:52.637Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 217,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 5,
+          "ts": "2026-10-25T07:58:52.733Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 96,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 6,
+          "ts": "2026-10-25T07:58:53.054Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 320,
+          "status": "ok",
+          "result": {
+            "price": 3500,
+            "productPrice": 3500,
+            "originalPrice": 3500,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 400
+            }
+          }
+        },
+        {
+          "seq": 7,
+          "ts": "2026-10-25T07:58:53.181Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 127,
+          "status": "ok",
+          "result": {
+            "price": 4250,
+            "productPrice": 4250,
+            "originalPrice": 4250,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 8,
+          "ts": "2026-10-25T07:58:53.398Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": true,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 217,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 9,
+          "ts": "2026-10-25T07:58:53.597Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507368"
+                ]
+              }
+            ]
+          },
+          "ms": 199,
+          "status": "ok",
+          "result": {
+            "price": 4250,
+            "productPrice": 4250,
+            "originalPrice": 4250,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 10,
+          "ts": "2026-10-25T07:58:53.805Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 207,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 11,
+          "ts": "2026-10-25T07:58:54.005Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 200,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 12,
+          "ts": "2026-10-25T07:58:54.393Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 388,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 13,
+          "ts": "2026-10-25T07:58:54.490Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 97,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 14,
+          "ts": "2026-10-25T07:58:54.742Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→521983",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 252,
+          "status": "ok",
+          "result": {
+            "price": 3450,
+            "productPrice": 3450,
+            "originalPrice": 3450,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 450
+            }
+          }
+        },
+        {
+          "seq": 15,
+          "ts": "2026-10-25T07:58:54.929Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 187,
+          "status": "ok",
+          "result": {
+            "price": 3500,
+            "productPrice": 3500,
+            "originalPrice": 3500,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 400
+            }
+          }
+        },
+        {
+          "seq": 16,
+          "ts": "2026-10-25T07:58:55.129Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3100"
+                ]
+              }
+            ]
+          },
+          "ms": 200,
+          "status": "ok",
+          "result": {
+            "price": 3550,
+            "productPrice": 3550,
+            "originalPrice": 3550,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 350
+            }
+          }
+        },
+        {
+          "seq": 17,
+          "ts": "2026-10-25T07:58:55.338Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3111"
+                ]
+              }
+            ]
+          },
+          "ms": 208,
+          "status": "ok",
+          "result": {
+            "price": 3550,
+            "productPrice": 3550,
+            "originalPrice": 3550,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 350
+            }
+          }
+        },
+        {
+          "seq": 18,
+          "ts": "2026-10-25T07:58:55.550Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 211,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 19,
+          "ts": "2026-10-25T07:58:57.133Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 1583,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 20,
+          "ts": "2026-10-25T07:58:58.742Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 1609,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 21,
+          "ts": "2026-10-25T07:58:58.837Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 95,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 22,
+          "ts": "2026-10-25T07:58:59.070Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 233,
+          "status": "ok",
+          "result": {
+            "price": 3800,
+            "productPrice": 3800,
+            "originalPrice": 3800,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 100
+            }
+          }
+        },
+        {
+          "seq": 23,
+          "ts": "2026-10-25T07:58:59.276Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 206,
+          "status": "ok",
+          "result": {
+            "price": 4550,
+            "productPrice": 4550,
+            "originalPrice": 4550,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 24,
+          "ts": "2026-10-25T07:58:59.487Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": true,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 211,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 25,
+          "ts": "2026-10-25T07:58:59.691Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507368"
+                ]
+              }
+            ]
+          },
+          "ms": 204,
+          "status": "ok",
+          "result": {
+            "price": 4550,
+            "productPrice": 4550,
+            "originalPrice": 4550,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 26,
+          "ts": "2026-10-25T07:58:59.924Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 233,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 27,
+          "ts": "2026-10-25T07:59:00.100Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 176,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 28,
+          "ts": "2026-10-25T07:59:00.285Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 185,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 29,
+          "ts": "2026-10-25T07:59:00.473Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 188,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 30,
+          "ts": "2026-10-25T07:59:00.709Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→521983",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 235,
+          "status": "ok",
+          "result": {
+            "price": 3750,
+            "productPrice": 3750,
+            "originalPrice": 3750,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 150
+            }
+          }
+        },
+        {
+          "seq": 31,
+          "ts": "2026-10-25T07:59:01.001Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 292,
+          "status": "ok",
+          "result": {
+            "price": 3800,
+            "productPrice": 3800,
+            "originalPrice": 3800,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 100
+            }
+          }
+        },
+        {
+          "seq": 32,
+          "ts": "2026-10-25T07:59:01.175Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3100"
+                ]
+              }
+            ]
+          },
+          "ms": 174,
+          "status": "ok",
+          "result": {
+            "price": 3850,
+            "productPrice": 3850,
+            "originalPrice": 3850,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 50
+            }
+          }
+        },
+        {
+          "seq": 33,
+          "ts": "2026-10-25T07:59:01.404Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3111"
+                ]
+              }
+            ]
+          },
+          "ms": 228,
+          "status": "ok",
+          "result": {
+            "price": 3850,
+            "productPrice": 3850,
+            "originalPrice": 3850,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 50
+            }
+          }
+        },
+        {
+          "seq": 34,
+          "ts": "2026-10-25T07:59:01.659Z",
+          "tool": "query-meals",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 254,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 35,
+          "ts": "2026-10-25T07:59:01.798Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 139,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 36,
+          "ts": "2026-10-25T07:59:01.979Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 181,
+          "status": "ok",
+          "result": {}
+        }
+      ],
+      "intentRequested": "更饱"
+    },
+    {
+      "storeCode": "1450713",
+      "mealCode": "9900005466",
+      "mealName": "巨无霸三件套",
+      "roundsMeta": [
+        {
+          "roundId": "1",
+          "roundName": "新升级巨无霸",
+          "kind": "main",
+          "choiceCount": 1
+        },
+        {
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "kind": "side",
+          "choiceCount": 7
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "kind": "drink",
+          "choiceCount": 22
+        }
+      ],
+      "budgetFen": 500,
+      "intentText": "咖啡",
+      "intentLabel": "想喝咖啡",
+      "baseline": {
+        "roundList": [
+          {
+            "round": "1",
+            "comboItemList": [
+              {
+                "code": "1100",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "round": "2",
+            "comboItemList": [
+              {
+                "code": "4810",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "round": "3",
+            "comboItemList": [
+              {
+                "code": "3050",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        "priceFen": 3650,
+        "productPriceFen": 3650,
+        "originalPriceFen": 3650,
+        "absorbedFen": 0,
+        "couponUsed": false,
+        "couponTitle": null,
+        "probe": {
+          "explicitFen": 3650,
+          "implicitFen": 3650,
+          "diffFen": 0
+        },
+        "notes": []
+      },
+      "couponContext": {
+        "storeCouponCount": 2,
+        "candidateTitles": [
+          "9.9元中杯冰美式",
+          "1024“码”力翻倍"
+        ],
+        "notes": [
+          "券不能与套餐内替换叠加：服务端返回 600012 促销规则不支持该商品（该券只对单点商品生效）"
+        ]
+      },
+      "best": {
+        "roundId": "3",
+        "roundName": "选择套餐内饮料",
+        "roundKind": "drink",
+        "from": {
+          "code": "3050",
+          "name": "可乐中杯"
+        },
+        "to": {
+          "code": "520688",
+          "name": "大杯鲜萃咖啡",
+          "diffPriceRaw": "+ ¥1.5"
+        },
+        "menuDeltaFen": 150,
+        "why": "名称命中「鲜萃」；意图命中 +1.0；加价 1.50 元 +0.46",
+        "priceFen": 3800,
+        "attribution": {
+          "deltaFen": 150,
+          "menuDeltaFen": 150,
+          "couponDeltaFen": 0,
+          "otherDeltaFen": 0,
+          "residualFen": 0,
+          "menuObsDeltaFen": 150,
+          "menuMismatchFen": 0,
+          "couponBroken": false,
+          "level": "ok"
+        },
+        "couponUsed": false,
+        "couponTitle": null,
+        "alternatives": {
+          "noCouponFen": 3800,
+          "withCouponFen": null
+        },
+        "score": 1.462
+      },
+      "eligible": [
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "520688",
+            "name": "大杯鲜萃咖啡",
+            "diffPriceRaw": "+ ¥1.5"
+          },
+          "menuDeltaFen": 150,
+          "why": "名称命中「鲜萃」；意图命中 +1.0；加价 1.50 元 +0.46",
+          "priceFen": 3800,
+          "attribution": {
+            "deltaFen": 150,
+            "menuDeltaFen": 150,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 150,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 3800,
+            "withCouponFen": null
+          },
+          "score": 1.462
+        }
+      ],
+      "overBudget": [
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "507411",
+            "name": "麦咖啡™冰美式中杯",
+            "diffPriceRaw": "+ ¥9"
+          },
+          "menuDeltaFen": 900,
+          "why": "名称命中「咖啡」；意图命中 +1.0；加价 9.00 元 +0.28",
+          "priceFen": 4550,
+          "attribution": {
+            "deltaFen": 900,
+            "menuDeltaFen": 900,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 900,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 4550,
+            "withCouponFen": null
+          },
+          "score": 1.275
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "507368",
+            "name": "麦咖啡™热美式中杯",
+            "diffPriceRaw": "+ ¥9"
+          },
+          "menuDeltaFen": 900,
+          "why": "名称命中「咖啡」；意图命中 +1.0；加价 9.00 元 +0.28",
+          "priceFen": 4550,
+          "attribution": {
+            "deltaFen": 900,
+            "menuDeltaFen": 900,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 900,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 4550,
+            "withCouponFen": null
+          },
+          "score": 1.275
+        }
+      ],
+      "unverified": [],
+      "unpriced": 0,
+      "notes": [],
+      "fallback": false,
+      "unsupportedReason": null,
+      "capturedAt": "2026-10-25T15:58:59+08:00",
+      "audit": [
+        {
+          "seq": 1,
+          "ts": "2026-10-25T07:58:51.914Z",
+          "tool": "query-meals",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 386,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 2,
+          "ts": "2026-10-25T07:58:52.087Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 170,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 3,
+          "ts": "2026-10-25T07:58:52.419Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 332,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 4,
+          "ts": "2026-10-25T07:58:52.637Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 217,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 5,
+          "ts": "2026-10-25T07:58:52.733Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 96,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 6,
+          "ts": "2026-10-25T07:58:53.054Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 320,
+          "status": "ok",
+          "result": {
+            "price": 3500,
+            "productPrice": 3500,
+            "originalPrice": 3500,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 400
+            }
+          }
+        },
+        {
+          "seq": 7,
+          "ts": "2026-10-25T07:58:53.181Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 127,
+          "status": "ok",
+          "result": {
+            "price": 4250,
+            "productPrice": 4250,
+            "originalPrice": 4250,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 8,
+          "ts": "2026-10-25T07:58:53.398Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": true,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 217,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 9,
+          "ts": "2026-10-25T07:58:53.597Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507368"
+                ]
+              }
+            ]
+          },
+          "ms": 199,
+          "status": "ok",
+          "result": {
+            "price": 4250,
+            "productPrice": 4250,
+            "originalPrice": 4250,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 10,
+          "ts": "2026-10-25T07:58:53.805Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 207,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 11,
+          "ts": "2026-10-25T07:58:54.005Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 200,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 12,
+          "ts": "2026-10-25T07:58:54.393Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 388,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 13,
+          "ts": "2026-10-25T07:58:54.490Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 97,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 14,
+          "ts": "2026-10-25T07:58:54.742Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→521983",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 252,
+          "status": "ok",
+          "result": {
+            "price": 3450,
+            "productPrice": 3450,
+            "originalPrice": 3450,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 450
+            }
+          }
+        },
+        {
+          "seq": 15,
+          "ts": "2026-10-25T07:58:54.929Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 187,
+          "status": "ok",
+          "result": {
+            "price": 3500,
+            "productPrice": 3500,
+            "originalPrice": 3500,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 400
+            }
+          }
+        },
+        {
+          "seq": 16,
+          "ts": "2026-10-25T07:58:55.129Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3100"
+                ]
+              }
+            ]
+          },
+          "ms": 200,
+          "status": "ok",
+          "result": {
+            "price": 3550,
+            "productPrice": 3550,
+            "originalPrice": 3550,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 350
+            }
+          }
+        },
+        {
+          "seq": 17,
+          "ts": "2026-10-25T07:58:55.338Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3111"
+                ]
+              }
+            ]
+          },
+          "ms": 208,
+          "status": "ok",
+          "result": {
+            "price": 3550,
+            "productPrice": 3550,
+            "originalPrice": 3550,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 350
+            }
+          }
+        },
+        {
+          "seq": 18,
+          "ts": "2026-10-25T07:58:55.550Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 211,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 19,
+          "ts": "2026-10-25T07:58:57.133Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 1583,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 20,
+          "ts": "2026-10-25T07:58:58.742Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 1609,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 21,
+          "ts": "2026-10-25T07:58:58.837Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 95,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 22,
+          "ts": "2026-10-25T07:58:59.070Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 233,
+          "status": "ok",
+          "result": {
+            "price": 3800,
+            "productPrice": 3800,
+            "originalPrice": 3800,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 100
+            }
+          }
+        },
+        {
+          "seq": 23,
+          "ts": "2026-10-25T07:58:59.276Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 206,
+          "status": "ok",
+          "result": {
+            "price": 4550,
+            "productPrice": 4550,
+            "originalPrice": 4550,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 24,
+          "ts": "2026-10-25T07:58:59.487Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": true,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 211,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 25,
+          "ts": "2026-10-25T07:58:59.691Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507368"
+                ]
+              }
+            ]
+          },
+          "ms": 204,
+          "status": "ok",
+          "result": {
+            "price": 4550,
+            "productPrice": 4550,
+            "originalPrice": 4550,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 26,
+          "ts": "2026-10-25T07:58:59.924Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 233,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 27,
+          "ts": "2026-10-25T07:59:00.100Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 176,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 28,
+          "ts": "2026-10-25T07:59:00.285Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 185,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 29,
+          "ts": "2026-10-25T07:59:00.473Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 188,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 30,
+          "ts": "2026-10-25T07:59:00.709Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→521983",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 235,
+          "status": "ok",
+          "result": {
+            "price": 3750,
+            "productPrice": 3750,
+            "originalPrice": 3750,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 150
+            }
+          }
+        },
+        {
+          "seq": 31,
+          "ts": "2026-10-25T07:59:01.001Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 292,
+          "status": "ok",
+          "result": {
+            "price": 3800,
+            "productPrice": 3800,
+            "originalPrice": 3800,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 100
+            }
+          }
+        },
+        {
+          "seq": 32,
+          "ts": "2026-10-25T07:59:01.175Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3100"
+                ]
+              }
+            ]
+          },
+          "ms": 174,
+          "status": "ok",
+          "result": {
+            "price": 3850,
+            "productPrice": 3850,
+            "originalPrice": 3850,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 50
+            }
+          }
+        },
+        {
+          "seq": 33,
+          "ts": "2026-10-25T07:59:01.404Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3111"
+                ]
+              }
+            ]
+          },
+          "ms": 228,
+          "status": "ok",
+          "result": {
+            "price": 3850,
+            "productPrice": 3850,
+            "originalPrice": 3850,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 50
+            }
+          }
+        },
+        {
+          "seq": 34,
+          "ts": "2026-10-25T07:59:01.659Z",
+          "tool": "query-meals",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 254,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 35,
+          "ts": "2026-10-25T07:59:01.798Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 139,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 36,
+          "ts": "2026-10-25T07:59:01.979Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 181,
+          "status": "ok",
+          "result": {}
+        }
+      ],
+      "intentRequested": "咖啡"
+    },
+    {
+      "storeCode": "1450713",
+      "mealCode": "9900005466",
+      "mealName": "巨无霸三件套",
+      "roundsMeta": [
+        {
+          "roundId": "1",
+          "roundName": "新升级巨无霸",
+          "kind": "main",
+          "choiceCount": 1
+        },
+        {
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "kind": "side",
+          "choiceCount": 7
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "kind": "drink",
+          "choiceCount": 22
+        }
+      ],
+      "budgetFen": 500,
+      "intentText": "更饱",
+      "intentLabel": "想更饱",
+      "baseline": {
+        "roundList": [
+          {
+            "round": "1",
+            "comboItemList": [
+              {
+                "code": "1100",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "round": "2",
+            "comboItemList": [
+              {
+                "code": "4810",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "round": "3",
+            "comboItemList": [
+              {
+                "code": "3050",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        "priceFen": 3650,
+        "productPriceFen": 3650,
+        "originalPriceFen": 3650,
+        "absorbedFen": 0,
+        "couponUsed": false,
+        "couponTitle": null,
+        "probe": {
+          "explicitFen": 3650,
+          "implicitFen": 3650,
+          "diffFen": 0
+        },
+        "notes": []
+      },
+      "couponContext": {
+        "storeCouponCount": 2,
+        "candidateTitles": [
+          "9.9元中杯冰美式",
+          "1024“码”力翻倍"
+        ],
+        "notes": []
+      },
+      "best": {
+        "roundId": "2",
+        "roundName": "选择套餐内小食",
+        "roundKind": "side",
+        "from": {
+          "code": "4810",
+          "name": "中薯条"
+        },
+        "to": {
+          "code": "521983",
+          "name": "5块心形薯饼+韩式辣椒黄油风味酱",
+          "diffPriceRaw": "+ ¥1"
+        },
+        "menuDeltaFen": 100,
+        "why": "份量更大：块；意图命中 +1.0；加价 1.00 元 +0.47",
+        "priceFen": 3750,
+        "attribution": {
+          "deltaFen": 100,
+          "menuDeltaFen": 100,
+          "couponDeltaFen": 0,
+          "otherDeltaFen": 0,
+          "residualFen": 0,
+          "menuObsDeltaFen": 100,
+          "menuMismatchFen": 0,
+          "couponBroken": false,
+          "level": "ok"
+        },
+        "couponUsed": false,
+        "couponTitle": null,
+        "alternatives": {
+          "noCouponFen": 3750,
+          "withCouponFen": null
+        },
+        "score": 1.475
+      },
+      "eligible": [
+        {
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "from": {
+            "code": "4810",
+            "name": "中薯条"
+          },
+          "to": {
+            "code": "521983",
+            "name": "5块心形薯饼+韩式辣椒黄油风味酱",
+            "diffPriceRaw": "+ ¥1"
+          },
+          "menuDeltaFen": 100,
+          "why": "份量更大：块；意图命中 +1.0；加价 1.00 元 +0.47",
+          "priceFen": 3750,
+          "attribution": {
+            "deltaFen": 100,
+            "menuDeltaFen": 100,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 100,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 3750,
+            "withCouponFen": null
+          },
+          "score": 1.475
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "520688",
+            "name": "大杯鲜萃咖啡",
+            "diffPriceRaw": "+ ¥1.5"
+          },
+          "menuDeltaFen": 150,
+          "why": "份量更大：大；意图命中 +1.0；加价 1.50 元 +0.46",
+          "priceFen": 3800,
+          "attribution": {
+            "deltaFen": 150,
+            "menuDeltaFen": 150,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 150,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 3800,
+            "withCouponFen": null
+          },
+          "score": 1.462
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "3100",
+            "name": "可乐大杯",
+            "diffPriceRaw": "+ ¥2"
+          },
+          "menuDeltaFen": 200,
+          "why": "份量更大：大；意图命中 +1.0；加价 2.00 元 +0.45",
+          "priceFen": 3850,
+          "attribution": {
+            "deltaFen": 200,
+            "menuDeltaFen": 200,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 200,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 3850,
+            "withCouponFen": null
+          },
+          "score": 1.45
+        },
+        {
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "from": {
+            "code": "3050",
+            "name": "可乐中杯"
+          },
+          "to": {
+            "code": "3111",
+            "name": "无糖可口可乐大杯",
+            "diffPriceRaw": "+ ¥2"
+          },
+          "menuDeltaFen": 200,
+          "why": "份量更大：大；意图命中 +1.0；加价 2.00 元 +0.45",
+          "priceFen": 3850,
+          "attribution": {
+            "deltaFen": 200,
+            "menuDeltaFen": 200,
+            "couponDeltaFen": 0,
+            "otherDeltaFen": 0,
+            "residualFen": 0,
+            "menuObsDeltaFen": 200,
+            "menuMismatchFen": 0,
+            "couponBroken": false,
+            "level": "ok"
+          },
+          "couponUsed": false,
+          "couponTitle": null,
+          "alternatives": {
+            "noCouponFen": 3850,
+            "withCouponFen": null
+          },
+          "score": 1.45
+        }
+      ],
+      "overBudget": [],
+      "unverified": [],
+      "unpriced": 0,
+      "notes": [],
+      "fallback": false,
+      "unsupportedReason": null,
+      "capturedAt": "2026-10-25T15:59:01+08:00",
+      "audit": [
+        {
+          "seq": 1,
+          "ts": "2026-10-25T07:58:51.914Z",
+          "tool": "query-meals",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 386,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 2,
+          "ts": "2026-10-25T07:58:52.087Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 170,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 3,
+          "ts": "2026-10-25T07:58:52.419Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 332,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 4,
+          "ts": "2026-10-25T07:58:52.637Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 217,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 5,
+          "ts": "2026-10-25T07:58:52.733Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 96,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 6,
+          "ts": "2026-10-25T07:58:53.054Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 320,
+          "status": "ok",
+          "result": {
+            "price": 3500,
+            "productPrice": 3500,
+            "originalPrice": 3500,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 400
+            }
+          }
+        },
+        {
+          "seq": 7,
+          "ts": "2026-10-25T07:58:53.181Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 127,
+          "status": "ok",
+          "result": {
+            "price": 4250,
+            "productPrice": 4250,
+            "originalPrice": 4250,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 8,
+          "ts": "2026-10-25T07:58:53.398Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": true,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 217,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 9,
+          "ts": "2026-10-25T07:58:53.597Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→507368"
+                ]
+              }
+            ]
+          },
+          "ms": 199,
+          "status": "ok",
+          "result": {
+            "price": 4250,
+            "productPrice": 4250,
+            "originalPrice": 4250,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 10,
+          "ts": "2026-10-25T07:58:53.805Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 207,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 11,
+          "ts": "2026-10-25T07:58:54.005Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 200,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 12,
+          "ts": "2026-10-25T07:58:54.393Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 388,
+          "status": "ok",
+          "result": {
+            "price": 3350,
+            "productPrice": 3350,
+            "originalPrice": 3350,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 550
+            }
+          }
+        },
+        {
+          "seq": 13,
+          "ts": "2026-10-25T07:58:54.490Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 97,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 14,
+          "ts": "2026-10-25T07:58:54.742Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→521983",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 252,
+          "status": "ok",
+          "result": {
+            "price": 3450,
+            "productPrice": 3450,
+            "originalPrice": 3450,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 450
+            }
+          }
+        },
+        {
+          "seq": 15,
+          "ts": "2026-10-25T07:58:54.929Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 187,
+          "status": "ok",
+          "result": {
+            "price": 3500,
+            "productPrice": 3500,
+            "originalPrice": 3500,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 400
+            }
+          }
+        },
+        {
+          "seq": 16,
+          "ts": "2026-10-25T07:58:55.129Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3100"
+                ]
+              }
+            ]
+          },
+          "ms": 200,
+          "status": "ok",
+          "result": {
+            "price": 3550,
+            "productPrice": 3550,
+            "originalPrice": 3550,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 350
+            }
+          }
+        },
+        {
+          "seq": 17,
+          "ts": "2026-10-25T07:58:55.338Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005456",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1440",
+                  "2→4810",
+                  "3→3111"
+                ]
+              }
+            ]
+          },
+          "ms": 208,
+          "status": "ok",
+          "result": {
+            "price": 3550,
+            "productPrice": 3550,
+            "originalPrice": 3550,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 350
+            }
+          }
+        },
+        {
+          "seq": 18,
+          "ts": "2026-10-25T07:58:55.550Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 211,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 19,
+          "ts": "2026-10-25T07:58:57.133Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 1583,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 20,
+          "ts": "2026-10-25T07:58:58.742Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 1609,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 21,
+          "ts": "2026-10-25T07:58:58.837Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 95,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 22,
+          "ts": "2026-10-25T07:58:59.070Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 233,
+          "status": "ok",
+          "result": {
+            "price": 3800,
+            "productPrice": 3800,
+            "originalPrice": 3800,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 100
+            }
+          }
+        },
+        {
+          "seq": 23,
+          "ts": "2026-10-25T07:58:59.276Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 206,
+          "status": "ok",
+          "result": {
+            "price": 4550,
+            "productPrice": 4550,
+            "originalPrice": 4550,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 24,
+          "ts": "2026-10-25T07:58:59.487Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": true,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507411"
+                ]
+              }
+            ]
+          },
+          "ms": 211,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 25,
+          "ts": "2026-10-25T07:58:59.691Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→507368"
+                ]
+              }
+            ]
+          },
+          "ms": 204,
+          "status": "ok",
+          "result": {
+            "price": 4550,
+            "productPrice": 4550,
+            "originalPrice": 4550,
+            "discount": 0,
+            "productListCount": 1
+          }
+        },
+        {
+          "seq": 26,
+          "ts": "2026-10-25T07:58:59.924Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 233,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 27,
+          "ts": "2026-10-25T07:59:00.100Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 176,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 28,
+          "ts": "2026-10-25T07:59:00.285Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": []
+              }
+            ]
+          },
+          "ms": 185,
+          "status": "ok",
+          "result": {
+            "price": 3650,
+            "productPrice": 3650,
+            "originalPrice": 3650,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 250
+            }
+          }
+        },
+        {
+          "seq": 29,
+          "ts": "2026-10-25T07:59:00.473Z",
+          "tool": "query-store-coupons",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 188,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 30,
+          "ts": "2026-10-25T07:59:00.709Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→521983",
+                  "3→3050"
+                ]
+              }
+            ]
+          },
+          "ms": 235,
+          "status": "ok",
+          "result": {
+            "price": 3750,
+            "productPrice": 3750,
+            "originalPrice": 3750,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 150
+            }
+          }
+        },
+        {
+          "seq": 31,
+          "ts": "2026-10-25T07:59:01.001Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→520688"
+                ]
+              }
+            ]
+          },
+          "ms": 292,
+          "status": "ok",
+          "result": {
+            "price": 3800,
+            "productPrice": 3800,
+            "originalPrice": 3800,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 100
+            }
+          }
+        },
+        {
+          "seq": 32,
+          "ts": "2026-10-25T07:59:01.175Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3100"
+                ]
+              }
+            ]
+          },
+          "ms": 174,
+          "status": "ok",
+          "result": {
+            "price": 3850,
+            "productPrice": 3850,
+            "originalPrice": 3850,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 50
+            }
+          }
+        },
+        {
+          "seq": 33,
+          "ts": "2026-10-25T07:59:01.404Z",
+          "tool": "calculate-price",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "items": [
+              {
+                "productCode": "9900005466",
+                "quantity": 1,
+                "coupon": false,
+                "rounds": [
+                  "1→1100",
+                  "2→4810",
+                  "3→3111"
+                ]
+              }
+            ]
+          },
+          "ms": 228,
+          "status": "ok",
+          "result": {
+            "price": 3850,
+            "productPrice": 3850,
+            "originalPrice": 3850,
+            "discount": 0,
+            "productListCount": 1,
+            "enjoyable": {
+              "amountType": "3",
+              "realDiscount": 5,
+              "balance": 50
+            }
+          }
+        },
+        {
+          "seq": 34,
+          "ts": "2026-10-25T07:59:01.659Z",
+          "tool": "query-meals",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1
+          },
+          "ms": 254,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 35,
+          "ts": "2026-10-25T07:59:01.798Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005456"
+          },
+          "ms": 139,
+          "status": "ok",
+          "result": {}
+        },
+        {
+          "seq": 36,
+          "ts": "2026-10-25T07:59:01.979Z",
+          "tool": "query-meal-detail",
+          "argsSummary": {
+            "storeCode": "1450713",
+            "beType": 1,
+            "orderType": 1,
+            "code": "9900005466"
+          },
+          "ms": 181,
+          "status": "ok",
+          "result": {}
+        }
+      ],
+      "intentRequested": "更饱"
+    }
+  ],
+  "leaderboard": {
+    "storeCode": "1450713",
+    "generatedAt": "2026-10-25T15:59:01+08:00",
+    "meals": [
+      {
+        "code": "9900005456",
+        "name": "麦辣鸡腿汉堡三件套",
+        "currentPriceFen": "33.5",
+        "originalPriceFen": "46",
+        "tags": [],
+        "canWithOrder": false,
+        "category": "鸡肉汉堡\n/卷"
+      },
+      {
+        "code": "9900005466",
+        "name": "巨无霸三件套",
+        "currentPriceFen": "36.5",
+        "originalPriceFen": "49",
+        "tags": [],
+        "canWithOrder": false,
+        "category": "巨无霸\n牛鱼肉堡"
+      }
+    ],
+    "buckets": {
+      "drop": [
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "4437",
+          "choiceName": "小杯玉米杯",
+          "diffPriceFen": -50,
+          "diffPriceRaw": "- ¥0.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "4437",
+          "choiceName": "小杯玉米杯",
+          "diffPriceFen": -50,
+          "diffPriceRaw": "- ¥0.5"
+        }
+      ],
+      "one": [
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3071",
+          "choiceName": "无糖可口可乐中杯",
+          "diffPriceFen": 0,
+          "diffPriceRaw": "+ ¥0"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3060",
+          "choiceName": "雪碧中杯",
+          "diffPriceFen": 0,
+          "diffPriceRaw": "+ ¥0"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "515281",
+          "choiceName": "阳光柠檬红茶中杯",
+          "diffPriceFen": 0,
+          "diffPriceRaw": "+ ¥0"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3071",
+          "choiceName": "无糖可口可乐中杯",
+          "diffPriceFen": 0,
+          "diffPriceRaw": "+ ¥0"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3060",
+          "choiceName": "雪碧中杯",
+          "diffPriceFen": 0,
+          "diffPriceRaw": "+ ¥0"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "515281",
+          "choiceName": "阳光柠檬红茶中杯",
+          "diffPriceFen": 0,
+          "diffPriceRaw": "+ ¥0"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3755",
+          "choiceName": "纯牛奶",
+          "diffPriceFen": 50,
+          "diffPriceRaw": "+ ¥0.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3755",
+          "choiceName": "纯牛奶",
+          "diffPriceFen": 50,
+          "diffPriceRaw": "+ ¥0.5"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "521983",
+          "choiceName": "5块心形薯饼+韩式辣椒黄油风味酱",
+          "diffPriceFen": 100,
+          "diffPriceRaw": "+ ¥1"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "521817",
+          "choiceName": "【美汁源】“多汁柠柠”",
+          "diffPriceFen": 100,
+          "diffPriceRaw": "+ ¥1"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "521983",
+          "choiceName": "5块心形薯饼+韩式辣椒黄油风味酱",
+          "diffPriceFen": 100,
+          "diffPriceRaw": "+ ¥1"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "521817",
+          "choiceName": "【美汁源】“多汁柠柠”",
+          "diffPriceFen": 100,
+          "diffPriceRaw": "+ ¥1"
+        }
+      ],
+      "three": [
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "520688",
+          "choiceName": "大杯鲜萃咖啡",
+          "diffPriceFen": 150,
+          "diffPriceRaw": "+ ¥1.5"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3505",
+          "choiceName": "锡兰红茶",
+          "diffPriceFen": 150,
+          "diffPriceRaw": "+ ¥1.5"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "6362",
+          "choiceName": "100%苹果汁",
+          "diffPriceFen": 150,
+          "diffPriceRaw": "+ ¥1.5"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "515520",
+          "choiceName": "中杯怡泉+C",
+          "diffPriceFen": 150,
+          "diffPriceRaw": "+ ¥1.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "520688",
+          "choiceName": "大杯鲜萃咖啡",
+          "diffPriceFen": 150,
+          "diffPriceRaw": "+ ¥1.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3505",
+          "choiceName": "锡兰红茶",
+          "diffPriceFen": 150,
+          "diffPriceRaw": "+ ¥1.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "6362",
+          "choiceName": "100%苹果汁",
+          "diffPriceFen": 150,
+          "diffPriceRaw": "+ ¥1.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "515520",
+          "choiceName": "中杯怡泉+C",
+          "diffPriceFen": 150,
+          "diffPriceRaw": "+ ¥1.5"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3100",
+          "choiceName": "可乐大杯",
+          "diffPriceFen": 200,
+          "diffPriceRaw": "+ ¥2"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3111",
+          "choiceName": "无糖可口可乐大杯",
+          "diffPriceFen": 200,
+          "diffPriceRaw": "+ ¥2"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3110",
+          "choiceName": "雪碧大杯",
+          "diffPriceFen": 200,
+          "diffPriceRaw": "+ ¥2"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "515282",
+          "choiceName": "阳光柠檬红茶大杯",
+          "diffPriceFen": 200,
+          "diffPriceRaw": "+ ¥2"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3100",
+          "choiceName": "可乐大杯",
+          "diffPriceFen": 200,
+          "diffPriceRaw": "+ ¥2"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3111",
+          "choiceName": "无糖可口可乐大杯",
+          "diffPriceFen": 200,
+          "diffPriceRaw": "+ ¥2"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "3110",
+          "choiceName": "雪碧大杯",
+          "diffPriceFen": 200,
+          "diffPriceRaw": "+ ¥2"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "515282",
+          "choiceName": "阳光柠檬红茶大杯",
+          "diffPriceFen": 200,
+          "diffPriceRaw": "+ ¥2"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "521881",
+          "choiceName": "马来咖喱风味薄皮肉骨鸡3块",
+          "diffPriceFen": 250,
+          "diffPriceRaw": "+ ¥2.5"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "4820",
+          "choiceName": "大薯条",
+          "diffPriceFen": 250,
+          "diffPriceRaw": "+ ¥2.5"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "4438",
+          "choiceName": "大杯玉米杯",
+          "diffPriceFen": 250,
+          "diffPriceRaw": "+ ¥2.5"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "514782",
+          "choiceName": "脆脆薯条",
+          "diffPriceFen": 250,
+          "diffPriceRaw": "+ ¥2.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "521881",
+          "choiceName": "马来咖喱风味薄皮肉骨鸡3块",
+          "diffPriceFen": 250,
+          "diffPriceRaw": "+ ¥2.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "4820",
+          "choiceName": "大薯条",
+          "diffPriceFen": 250,
+          "diffPriceRaw": "+ ¥2.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "4438",
+          "choiceName": "大杯玉米杯",
+          "diffPriceFen": 250,
+          "diffPriceRaw": "+ ¥2.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "2",
+          "roundName": "选择套餐内小食",
+          "roundKind": "side",
+          "choiceCode": "514782",
+          "choiceName": "脆脆薯条",
+          "diffPriceFen": 250,
+          "diffPriceRaw": "+ ¥2.5"
+        },
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "2430",
+          "choiceName": "【美汁源】“黄金橙橙”",
+          "diffPriceFen": 300,
+          "diffPriceRaw": "+ ¥3"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "2430",
+          "choiceName": "【美汁源】“黄金橙橙”",
+          "diffPriceFen": 300,
+          "diffPriceRaw": "+ ¥3"
+        }
+      ],
+      "five": [
+        {
+          "mealCode": "9900005456",
+          "mealName": "麦辣鸡腿汉堡三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "515521",
+          "choiceName": "大杯怡泉+C",
+          "diffPriceFen": 350,
+          "diffPriceRaw": "+ ¥3.5"
+        },
+        {
+          "mealCode": "9900005466",
+          "mealName": "巨无霸三件套",
+          "roundId": "3",
+          "roundName": "选择套餐内饮料",
+          "roundKind": "drink",
+          "choiceCode": "515521",
+          "choiceName": "大杯怡泉+C",
+          "diffPriceFen": 350,
+          "diffPriceRaw": "+ ¥3.5"
+        }
+      ]
+    },
+    "total": 54
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "ts": "2026-10-25T07:58:51.914Z",
+      "tool": "query-meals",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1
+      },
+      "ms": 386,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 2,
+      "ts": "2026-10-25T07:58:52.087Z",
+      "tool": "query-meal-detail",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "code": "9900005456"
+      },
+      "ms": 170,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 3,
+      "ts": "2026-10-25T07:58:52.419Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1440",
+              "2→4810",
+              "3→3050"
+            ]
+          }
+        ]
+      },
+      "ms": 332,
+      "status": "ok",
+      "result": {
+        "price": 3350,
+        "productPrice": 3350,
+        "originalPrice": 3350,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 550
+        }
+      }
+    },
+    {
+      "seq": 4,
+      "ts": "2026-10-25T07:58:52.637Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": []
+          }
+        ]
+      },
+      "ms": 217,
+      "status": "ok",
+      "result": {
+        "price": 3350,
+        "productPrice": 3350,
+        "originalPrice": 3350,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 550
+        }
+      }
+    },
+    {
+      "seq": 5,
+      "ts": "2026-10-25T07:58:52.733Z",
+      "tool": "query-store-coupons",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1
+      },
+      "ms": 96,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 6,
+      "ts": "2026-10-25T07:58:53.054Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1440",
+              "2→4810",
+              "3→520688"
+            ]
+          }
+        ]
+      },
+      "ms": 320,
+      "status": "ok",
+      "result": {
+        "price": 3500,
+        "productPrice": 3500,
+        "originalPrice": 3500,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 400
+        }
+      }
+    },
+    {
+      "seq": 7,
+      "ts": "2026-10-25T07:58:53.181Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1440",
+              "2→4810",
+              "3→507411"
+            ]
+          }
+        ]
+      },
+      "ms": 127,
+      "status": "ok",
+      "result": {
+        "price": 4250,
+        "productPrice": 4250,
+        "originalPrice": 4250,
+        "discount": 0,
+        "productListCount": 1
+      }
+    },
+    {
+      "seq": 8,
+      "ts": "2026-10-25T07:58:53.398Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": true,
+            "rounds": [
+              "1→1440",
+              "2→4810",
+              "3→507411"
+            ]
+          }
+        ]
+      },
+      "ms": 217,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 9,
+      "ts": "2026-10-25T07:58:53.597Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1440",
+              "2→4810",
+              "3→507368"
+            ]
+          }
+        ]
+      },
+      "ms": 199,
+      "status": "ok",
+      "result": {
+        "price": 4250,
+        "productPrice": 4250,
+        "originalPrice": 4250,
+        "discount": 0,
+        "productListCount": 1
+      }
+    },
+    {
+      "seq": 10,
+      "ts": "2026-10-25T07:58:53.805Z",
+      "tool": "query-meal-detail",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "code": "9900005456"
+      },
+      "ms": 207,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 11,
+      "ts": "2026-10-25T07:58:54.005Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1440",
+              "2→4810",
+              "3→3050"
+            ]
+          }
+        ]
+      },
+      "ms": 200,
+      "status": "ok",
+      "result": {
+        "price": 3350,
+        "productPrice": 3350,
+        "originalPrice": 3350,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 550
+        }
+      }
+    },
+    {
+      "seq": 12,
+      "ts": "2026-10-25T07:58:54.393Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": []
+          }
+        ]
+      },
+      "ms": 388,
+      "status": "ok",
+      "result": {
+        "price": 3350,
+        "productPrice": 3350,
+        "originalPrice": 3350,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 550
+        }
+      }
+    },
+    {
+      "seq": 13,
+      "ts": "2026-10-25T07:58:54.490Z",
+      "tool": "query-store-coupons",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1
+      },
+      "ms": 97,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 14,
+      "ts": "2026-10-25T07:58:54.742Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1440",
+              "2→521983",
+              "3→3050"
+            ]
+          }
+        ]
+      },
+      "ms": 252,
+      "status": "ok",
+      "result": {
+        "price": 3450,
+        "productPrice": 3450,
+        "originalPrice": 3450,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 450
+        }
+      }
+    },
+    {
+      "seq": 15,
+      "ts": "2026-10-25T07:58:54.929Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1440",
+              "2→4810",
+              "3→520688"
+            ]
+          }
+        ]
+      },
+      "ms": 187,
+      "status": "ok",
+      "result": {
+        "price": 3500,
+        "productPrice": 3500,
+        "originalPrice": 3500,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 400
+        }
+      }
+    },
+    {
+      "seq": 16,
+      "ts": "2026-10-25T07:58:55.129Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1440",
+              "2→4810",
+              "3→3100"
+            ]
+          }
+        ]
+      },
+      "ms": 200,
+      "status": "ok",
+      "result": {
+        "price": 3550,
+        "productPrice": 3550,
+        "originalPrice": 3550,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 350
+        }
+      }
+    },
+    {
+      "seq": 17,
+      "ts": "2026-10-25T07:58:55.338Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005456",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1440",
+              "2→4810",
+              "3→3111"
+            ]
+          }
+        ]
+      },
+      "ms": 208,
+      "status": "ok",
+      "result": {
+        "price": 3550,
+        "productPrice": 3550,
+        "originalPrice": 3550,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 350
+        }
+      }
+    },
+    {
+      "seq": 18,
+      "ts": "2026-10-25T07:58:55.550Z",
+      "tool": "query-meal-detail",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "code": "9900005466"
+      },
+      "ms": 211,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 19,
+      "ts": "2026-10-25T07:58:57.133Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1100",
+              "2→4810",
+              "3→3050"
+            ]
+          }
+        ]
+      },
+      "ms": 1583,
+      "status": "ok",
+      "result": {
+        "price": 3650,
+        "productPrice": 3650,
+        "originalPrice": 3650,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 250
+        }
+      }
+    },
+    {
+      "seq": 20,
+      "ts": "2026-10-25T07:58:58.742Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": []
+          }
+        ]
+      },
+      "ms": 1609,
+      "status": "ok",
+      "result": {
+        "price": 3650,
+        "productPrice": 3650,
+        "originalPrice": 3650,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 250
+        }
+      }
+    },
+    {
+      "seq": 21,
+      "ts": "2026-10-25T07:58:58.837Z",
+      "tool": "query-store-coupons",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1
+      },
+      "ms": 95,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 22,
+      "ts": "2026-10-25T07:58:59.070Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1100",
+              "2→4810",
+              "3→520688"
+            ]
+          }
+        ]
+      },
+      "ms": 233,
+      "status": "ok",
+      "result": {
+        "price": 3800,
+        "productPrice": 3800,
+        "originalPrice": 3800,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 100
+        }
+      }
+    },
+    {
+      "seq": 23,
+      "ts": "2026-10-25T07:58:59.276Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1100",
+              "2→4810",
+              "3→507411"
+            ]
+          }
+        ]
+      },
+      "ms": 206,
+      "status": "ok",
+      "result": {
+        "price": 4550,
+        "productPrice": 4550,
+        "originalPrice": 4550,
+        "discount": 0,
+        "productListCount": 1
+      }
+    },
+    {
+      "seq": 24,
+      "ts": "2026-10-25T07:58:59.487Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": true,
+            "rounds": [
+              "1→1100",
+              "2→4810",
+              "3→507411"
+            ]
+          }
+        ]
+      },
+      "ms": 211,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 25,
+      "ts": "2026-10-25T07:58:59.691Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1100",
+              "2→4810",
+              "3→507368"
+            ]
+          }
+        ]
+      },
+      "ms": 204,
+      "status": "ok",
+      "result": {
+        "price": 4550,
+        "productPrice": 4550,
+        "originalPrice": 4550,
+        "discount": 0,
+        "productListCount": 1
+      }
+    },
+    {
+      "seq": 26,
+      "ts": "2026-10-25T07:58:59.924Z",
+      "tool": "query-meal-detail",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "code": "9900005466"
+      },
+      "ms": 233,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 27,
+      "ts": "2026-10-25T07:59:00.100Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1100",
+              "2→4810",
+              "3→3050"
+            ]
+          }
+        ]
+      },
+      "ms": 176,
+      "status": "ok",
+      "result": {
+        "price": 3650,
+        "productPrice": 3650,
+        "originalPrice": 3650,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 250
+        }
+      }
+    },
+    {
+      "seq": 28,
+      "ts": "2026-10-25T07:59:00.285Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": []
+          }
+        ]
+      },
+      "ms": 185,
+      "status": "ok",
+      "result": {
+        "price": 3650,
+        "productPrice": 3650,
+        "originalPrice": 3650,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 250
+        }
+      }
+    },
+    {
+      "seq": 29,
+      "ts": "2026-10-25T07:59:00.473Z",
+      "tool": "query-store-coupons",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1
+      },
+      "ms": 188,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 30,
+      "ts": "2026-10-25T07:59:00.709Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1100",
+              "2→521983",
+              "3→3050"
+            ]
+          }
+        ]
+      },
+      "ms": 235,
+      "status": "ok",
+      "result": {
+        "price": 3750,
+        "productPrice": 3750,
+        "originalPrice": 3750,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 150
+        }
+      }
+    },
+    {
+      "seq": 31,
+      "ts": "2026-10-25T07:59:01.001Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1100",
+              "2→4810",
+              "3→520688"
+            ]
+          }
+        ]
+      },
+      "ms": 292,
+      "status": "ok",
+      "result": {
+        "price": 3800,
+        "productPrice": 3800,
+        "originalPrice": 3800,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 100
+        }
+      }
+    },
+    {
+      "seq": 32,
+      "ts": "2026-10-25T07:59:01.175Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1100",
+              "2→4810",
+              "3→3100"
+            ]
+          }
+        ]
+      },
+      "ms": 174,
+      "status": "ok",
+      "result": {
+        "price": 3850,
+        "productPrice": 3850,
+        "originalPrice": 3850,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 50
+        }
+      }
+    },
+    {
+      "seq": 33,
+      "ts": "2026-10-25T07:59:01.404Z",
+      "tool": "calculate-price",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "items": [
+          {
+            "productCode": "9900005466",
+            "quantity": 1,
+            "coupon": false,
+            "rounds": [
+              "1→1100",
+              "2→4810",
+              "3→3111"
+            ]
+          }
+        ]
+      },
+      "ms": 228,
+      "status": "ok",
+      "result": {
+        "price": 3850,
+        "productPrice": 3850,
+        "originalPrice": 3850,
+        "discount": 0,
+        "productListCount": 1,
+        "enjoyable": {
+          "amountType": "3",
+          "realDiscount": 5,
+          "balance": 50
+        }
+      }
+    },
+    {
+      "seq": 34,
+      "ts": "2026-10-25T07:59:01.659Z",
+      "tool": "query-meals",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1
+      },
+      "ms": 254,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 35,
+      "ts": "2026-10-25T07:59:01.798Z",
+      "tool": "query-meal-detail",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "code": "9900005456"
+      },
+      "ms": 139,
+      "status": "ok",
+      "result": {}
+    },
+    {
+      "seq": 36,
+      "ts": "2026-10-25T07:59:01.979Z",
+      "tool": "query-meal-detail",
+      "argsSummary": {
+        "storeCode": "1450713",
+        "beType": 1,
+        "orderType": 1,
+        "code": "9900005466"
+      },
+      "ms": 181,
+      "status": "ok",
+      "result": {}
+    }
+  ],
+  "disclaimers": [
+    "价格来自麦当劳中国 MCP 实时抓取，抓取时间见 generatedAt；菜单与价格可能随时调整。",
+    "「菜单补差」为套餐内选项的公示差价，不等同于实付差额；实付以 calculate-price 与门店结算为准。",
+    "本页未包含你账户内可能存在的全部券，实际支付可能更低。",
+    "不同套餐基础配置不同，加价额仅在该套餐内部可比，本榜不提供跨套餐排名。",
+    "本榜只列麦当劳自家商品，不与任何其他品牌做对比。"
+  ]
+}

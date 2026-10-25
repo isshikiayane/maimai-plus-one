@@ -1,0 +1,8 @@
+node_modules/
+.cache/
+.env
+.env.local
+*.local
+.DS_Store
+Thumbs.db
+web/data.json.bak

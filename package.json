@@ -1,0 +1,20 @@
+{
+  "name": "maimai-plus-one",
+  "version": "0.1.0",
+  "private": false,
+  "description": "给已选好的麦当劳套餐加一点预算，换一个更对的选项，并把差价拆成菜单补差 / 券影响 / 其它费用。基于麦当劳中国官方 MCP。",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs tests/intent.test.mjs",
+    "check": "node scripts/check-compliance.mjs",
+    "plan": "node scripts/cli.mjs plan",
+    "rank": "node scripts/cli.mjs rank",
+    "snapshot": "node scripts/cli.mjs snapshot",
+    "web": "node scripts/build-web.mjs"
+  },
+  "keywords": ["mcdonalds", "mcp", "skill", "decision", "pricing"],
+  "license": "MIT"
+}
